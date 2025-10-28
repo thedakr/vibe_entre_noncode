@@ -1,0 +1,18 @@
+Core Defining Attributes of AI Agents
+1. Autonomy/Semi-Autonomy: This is a fundamental characteristic. Agents operate independently, making their own decisions and taking actions without requiring constant human input or control. The level can vary from fully autonomous to semi-autonomous with human oversight.
+
+2. Perception (Observing): Agents gather information about their environment through "sensors" (e.g., APIs, data inputs, cameras, microphones). This allows them to understand context and changes in their surroundings.
+
+3. Reasoning and Decision-Making: Using logic, algorithms, and a knowledge base (often a Large Language Model), agents process perceived information to make informed decisions and solve problems.
+
+4. Learning and Adaptability (Self-Learning): Agents can learn from past experiences and feedback (via machine learning techniques like reinforcement learning) to adapt their strategies and improve their performance over time.
+
+5. Goal-Orientation: Agents are designed to achieve specific objectives or goals, which can be predefined by users or learned through interaction. They proactively plan steps to reach these goals.
+
+6. Tool Access (Acting Capability): Agents can interact with the external world and extend their capabilities by using tools, such as software applications, APIs, or physical actuators (in robotics). This allows them to perform complex, multi-step tasks.
+
+7. Communication (Social Interaction): Advanced agents can communicate and collaborate effectively with humans or other AI agents, often using natural language processing (NLP), to work together on shared objectives.
+
+8. Memory: Agents maintain context through various types of memory (short-term for immediate interactions, long-term for historical data) to ensure coherent and personalized interactions.
+
+9. Proactivity and Reactivity: Agents can react to immediate environmental changes and proactively take initiative to anticipate needs or problems, rather than just responding to commands. 
