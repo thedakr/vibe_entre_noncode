@@ -106,8 +106,24 @@ LLM_PROVIDER=anthropic
 LLM_TEMPERATURE=0.7
 LLM_MAX_TOKENS=4096
 
-# Your entrepreneur identifier
-ENTREPRENEUR_ID=your_username
+# Your entrepreneur identifier (auto-generated UUID)
+# Leave as "default_user" and a UUID will be auto-generated on first run
+# Or set your own UUID: ENTREPRENEUR_ID=550e8400-e29b-41d4-a716-446655440000
+ENTREPRENEUR_ID=default_user
+```
+
+### Entrepreneur ID (UUID System)
+
+**For cloud scalability, the system uses UUIDs to identify entrepreneurs:**
+
+- **First run**: If you use `ENTREPRENEUR_ID=default_user`, a UUID will be auto-generated
+- **Auto-generated**: UUIDs are stored in `data/.entrepreneur_uuid` and persisted across runs
+- **Globally unique**: No conflicts even across different deployments
+- **Migration**: Existing data can be migrated to UUIDs using the migration script
+
+**To migrate existing data:**
+```bash
+python3 src/core/migrate_to_uuid.py --old-id default_user --update-env --auto
 ```
 
 ## Usage Examples
