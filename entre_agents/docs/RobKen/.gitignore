@@ -1,0 +1,10 @@
+# Exclude files that exceed GitHub's file size limits
+# These files are kept locally but not tracked in git
+
+# Video files exceeding 2GB individual file size limit
+Quatere - Ken-Rob copy/Quatere Ken-Rob Materials Dump/Slovik Videos/DSCF1016.MOV
+Quatere - Ken-Rob copy/Quatere Ken-Rob Materials Dump/Slovik Videos/DSCF1017.MOV
+Quatere - Ken-Rob copy/Quatere Ken-Rob Materials Dump/Slovik Videos/DSCF1018.MOV
+
+# Zip file exceeding 100MB limit (not properly tracked by LFS in git history)
+Quatere - Ken-Rob copy/Quatere Ken-Rob Materials Dump/Quatere/Quatere/20150313 Robert Bell Copy/Foundry.zip
