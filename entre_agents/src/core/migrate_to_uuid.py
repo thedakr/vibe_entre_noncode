@@ -29,7 +29,7 @@ def generate_uuid() -> str:
     return str(uuid.uuid4())
 
 
-def migrate_entrepreneur_id(db: DatabaseAdapter, old_id: str, new_id: str):
+def migrate_entrepreneur_id(db: DatabaseAdapter, old_id: str, new_id: str, auto_confirm: bool = False):
     """
     Migrate all records from old entrepreneur ID to new UUID.
 
@@ -37,6 +37,7 @@ def migrate_entrepreneur_id(db: DatabaseAdapter, old_id: str, new_id: str):
         db: Database adapter
         old_id: Current entrepreneur ID (e.g., "default_user")
         new_id: New UUID to migrate to
+        auto_confirm: Skip confirmation prompt
     """
     print(f"\n{'='*60}")
     print(f"MIGRATION: {old_id} → {new_id}")
@@ -47,7 +48,7 @@ def migrate_entrepreneur_id(db: DatabaseAdapter, old_id: str, new_id: str):
 
     for table in tables:
         try:
-            result = db.execute_query(
+            result = db.fetchall(
                 f"SELECT COUNT(*) as count FROM {table} WHERE entrepreneur_id = ?",
                 (old_id,)
             )
@@ -59,10 +60,11 @@ def migrate_entrepreneur_id(db: DatabaseAdapter, old_id: str, new_id: str):
     print()
 
     # Confirm migration
-    response = input(f"Proceed with migration to UUID {new_id}? (yes/no): ").strip().lower()
-    if response not in ['yes', 'y']:
-        print("\nMigration cancelled.")
-        return False
+    if not auto_confirm:
+        response = input(f"Proceed with migration to UUID {new_id}? (yes/no): ").strip().lower()
+        if response not in ['yes', 'y']:
+            print("\nMigration cancelled.")
+            return False
 
     print("\nMigrating...")
 
@@ -71,13 +73,14 @@ def migrate_entrepreneur_id(db: DatabaseAdapter, old_id: str, new_id: str):
     for table in tables:
         try:
             # Update entrepreneur_id to new UUID
-            db.execute_update(
+            db.execute(
                 f"UPDATE {table} SET entrepreneur_id = ? WHERE entrepreneur_id = ?",
                 (new_id, old_id)
             )
+            db.commit()
 
             # Count what was migrated
-            result = db.execute_query(
+            result = db.fetchall(
                 f"SELECT COUNT(*) as count FROM {table} WHERE entrepreneur_id = ?",
                 (new_id,)
             )
@@ -190,7 +193,7 @@ def main():
             sys.exit(1)
 
         # Perform migration
-        success = migrate_entrepreneur_id(db, args.old_id, new_id)
+        success = migrate_entrepreneur_id(db, args.old_id, new_id, auto_confirm=args.auto)
 
         if success and args.update_env:
             # Find .env file (assume it's in entre_agents directory)
