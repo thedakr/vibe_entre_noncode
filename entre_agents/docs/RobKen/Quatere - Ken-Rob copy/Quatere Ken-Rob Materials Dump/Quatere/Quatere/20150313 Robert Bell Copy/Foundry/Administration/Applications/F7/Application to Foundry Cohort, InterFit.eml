@@ -1,0 +1,161 @@
+Delivered-To: usparkfoundry@gmail.com
+Received: by 10.180.3.163 with SMTP id d3csp59657wid;
+        Sun, 26 Jan 2014 08:19:15 -0800 (PST)
+X-Received: by 10.204.235.74 with SMTP id kf10mr15956121bkb.51.1390753155352;
+        Sun, 26 Jan 2014 08:19:15 -0800 (PST)
+Return-Path: <amyslavoie@gmail.com>
+Received: from mail-pb0-x22b.google.com (mail-pb0-x22b.google.com [2607:f8b0:400e:c01::22b])
+        by mx.google.com with ESMTPS id ce1si10897746bkc.181.2014.01.26.08.19.14
+        for <multiple recipients>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 26 Jan 2014 08:19:15 -0800 (PST)
+Received-SPF: pass (google.com: domain of amyslavoie@gmail.com designates 2607:f8b0:400e:c01::22b as permitted sender) client-ip=2607:f8b0:400e:c01::22b;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of amyslavoie@gmail.com designates 2607:f8b0:400e:c01::22b as permitted sender) smtp.mail=amyslavoie@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-pb0-x22b.google.com with SMTP id md12so4991690pbc.2
+        for <multiple recipients>; Sun, 26 Jan 2014 08:19:14 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=from:content-type:subject:date:message-id:cc:to:mime-version;
+        bh=mNeN4a1IDXVdJFSjrFF/JXM5T7vqGoomsyfrCtJlRmY=;
+        b=TToPWGUTDbSz109XZ/J2YtnyAqx91hmlEVDNkGvdv2EYEaDPN0VfVQXhi+RF42jBFR
+         5kQk7j+mOazTjg/iFdZMWUAjQUArhWiYWEYrJxbtL6VDNLrvFjJIbYrwlCVXQwtAvrFP
+         Dx6d7koFHoduAxdmdYa3VFm7/crJiV+/0kqqqbaZ7LCSUU111V67DlqxtkqZle1ayAfX
+         6UpYtcIKGd1YkY559+HLf51p0pJmkgXPGfjHiMOT2XsZ1Hl6IdFDnuMw39Mi+0HQ5cfJ
+         Kejk3IJC2+a7SXGYdugNMZ67hS0D3p4nCwHjG/v67mvVWP31f5YOKIhu56aeYwp3D3vY
+         hzHw==
+X-Received: by 10.67.22.100 with SMTP id hr4mr25498287pad.112.1390753154183;
+        Sun, 26 Jan 2014 08:19:14 -0800 (PST)
+Return-Path: <amyslavoie@gmail.com>
+Received: from [192.168.1.5] (c-67-161-252-137.hsd1.ut.comcast.net. [67.161.252.137])
+        by mx.google.com with ESMTPSA id e6sm23521765pbg.4.2014.01.26.08.19.12
+        for <multiple recipients>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 26 Jan 2014 08:19:13 -0800 (PST)
+From: Amy Lavoie <amyslavoie@gmail.com>
+Content-Type: multipart/mixed; boundary="Apple-Mail=_DD10ECE3-80C2-4A4B-A2C3-08D454DFC23C"
+Subject: Application to Foundry Cohort, InterFit
+Date: Sun, 26 Jan 2014 09:19:10 -0700
+Message-Id: <E228698F-3018-49AA-A735-058237A70BF2@gmail.com>
+Cc: Sabrina Haller <sabrina.c.haller@gmail.com>
+To: usparkfoundry@gmail.com
+Mime-Version: 1.0 (Mac OS X Mail 6.6 \(1510\))
+X-Mailer: Apple Mail (2.1510)
+
+
+--Apple-Mail=_DD10ECE3-80C2-4A4B-A2C3-08D454DFC23C
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=us-ascii
+
+Please see attached application. If you have any questions or need =
+additional information, please contact us at amyslavoie@gmail.com or =
+sabrina.c.haller@gmail.com.
+
+Thank you,=20
+Amy
+
+--Apple-Mail=_DD10ECE3-80C2-4A4B-A2C3-08D454DFC23C
+Content-Disposition: attachment;
+	filename=2014January25MOKR.InterFit.docx
+Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document;
+	name="2014January25MOKR.InterFit.docx"
+Content-Transfer-Encoding: base64
+
+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
+
+--Apple-Mail=_DD10ECE3-80C2-4A4B-A2C3-08D454DFC23C--

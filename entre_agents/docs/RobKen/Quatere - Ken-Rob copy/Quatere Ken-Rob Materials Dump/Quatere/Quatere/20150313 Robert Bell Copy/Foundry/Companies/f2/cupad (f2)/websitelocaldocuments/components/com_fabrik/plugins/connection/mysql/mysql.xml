@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.5" type="fabrikplugin" group="cron">
+	<name>MySQL connection</name>
+	<author>Rob Clayburn</author>
+	<creationDate>July 2008</creationDate>
+	<copyright>(C) 2005-2008 fabrikar.com</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>rob@pollen-8.co.uk</authorEmail>
+	<authorUrl>www.fabrikar.com</authorUrl>
+	<version>2.0</version>
+	<description>Connects to a standard MySQL database</description>
+	<files>
+		<filename fabrikplugin="mysql">mysql.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<params>
+		<param name="host" type="text" label="HOST" />
+		<param name="database" type="text" label="DATABASE" />
+		<param name="user" type="text" label="USER" />
+		<param name="password" type="text" label="PASSWORD" />
+		<param name="passwordConf" type="text" label="CONFIRM PASSWORD" />
+		<param name="state" type="radio" label="PUBLISHED">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+	</params>
+</install>

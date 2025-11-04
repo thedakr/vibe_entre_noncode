@@ -1,0 +1,65 @@
+Delivered-To: usparkfoundry@gmail.com
+Received: by 10.180.10.135 with SMTP id i7csp64064wib;
+        Tue, 28 Jan 2014 22:06:14 -0800 (PST)
+Return-Path: <sterlingcobb@gmail.com>
+Received-SPF: pass (google.com: domain of sterlingcobb@gmail.com designates 10.224.87.193 as permitted sender) client-ip=10.224.87.193
+Authentication-Results: mr.google.com;
+       spf=pass (google.com: domain of sterlingcobb@gmail.com designates 10.224.87.193 as permitted sender) smtp.mail=sterlingcobb@gmail.com;
+       dkim=pass header.i=@gmail.com
+X-Received: from mr.google.com ([10.224.87.193])
+        by 10.224.87.193 with SMTP id x1mr9082790qal.70.1390975573934 (num_hops = 1);
+        Tue, 28 Jan 2014 22:06:13 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=gXgZf7/JWUXVz042dm6xY7EJj+Sc4x2QQaVGeQ4rGcE=;
+        b=ZZkm0w04S71iUge1+DcaMLLfkvloq62JH2Veea+5wrF4nvCkOn3TMlv8Qtkv1EDLnf
+         CGyz2DpwXH0wSxqUf+97MIu+ZVnV/F5qEFZfxmtS98Q8cf5JBecv8w7SlrBOIsZjxoU8
+         0D/MEgEl4RMebUD3AVF1+6i37zWH/VAKazRD+zLhRQQDQUjvxSbR+iuocpUV7GYfIBqa
+         Gjpsg88lmLTsGE53fPtkfnUvqWiDQkbXicqj1DEuwhecpJnB+nDs1kGaCBTIxudQF5am
+         aKDiKqj22RRujnwNs6W/cQRCzanF6ask8c4w6ne8X3YiNr5GzQRMNxBUY1lCJPPwUyEQ
+         WMoQ==
+MIME-Version: 1.0
+X-Received: by 10.224.87.193 with SMTP id x1mr9082790qal.70.1390975573930;
+ Tue, 28 Jan 2014 22:06:13 -0800 (PST)
+Received: by 10.96.16.7 with HTTP; Tue, 28 Jan 2014 22:06:13 -0800 (PST)
+Date: Tue, 28 Jan 2014 23:06:13 -0700
+Message-ID: <CAMUQXqhefVobJ-ckcojaVrhvQYyPyT=vV1q8u4xGNt0C_rdHjg@mail.gmail.com>
+Subject: Application to Foundry Cohort, (Memory Sun)
+From: Sterling Cobb <sterlingcobb@gmail.com>
+To: Foundry Administration <usparkfoundry@gmail.com>
+Content-Type: multipart/alternative; boundary=001a11c3e246f9b85b04f115bc6d
+
+--001a11c3e246f9b85b04f115bc6d
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi
+
+Attached is my application. Also, here is a link to a video I made.
+http://youtu.be/atDlKLK-SOY
+
+- Sterling
+ 2014January28MOKR.MemorySun.doc<https://docs.google.com/file/d/0B62XV5f00Sd8bFl6a3U4YjE4a2phTEhncE80cmJKMVEzWGdj/edit?usp=drive_web>
+
+
+--001a11c3e246f9b85b04f115bc6d
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi=A0<div><br></div><div>Attached is my application. Also,=
+ here is a link to a video I made.=A0<a href=3D"http://youtu.be/atDlKLK-SOY=
+">http://youtu.be/atDlKLK-SOY</a></div><div><br></div><div>- Sterling<br><d=
+iv class=3D"gmail_drive_chip" style=3D"width:396px;height:18px;max-height:1=
+8px;background-color:#f5f5f5;padding:5px;color:#222;font-family:arial;font-=
+style:normal;font-weight:bold;font-size:13px;border:1px solid #ddd">
+<a href=3D"https://docs.google.com/file/d/0B62XV5f00Sd8bFl6a3U4YjE4a2phTEhn=
+cE80cmJKMVEzWGdj/edit?usp=3Ddrive_web" target=3D"_blank" style=3D"display:i=
+nline-block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-=
+decoration:none;padding:1px 0px;border:none;width:100%"><img style=3D"verti=
+cal-align: bottom; border: none;" src=3D"https://ssl.gstatic.com/docs/docli=
+st/images/icon_10_word_list.png">=A0<span dir=3D"ltr" style=3D"color:#15c;t=
+ext-decoration:none;vertical-align:bottom">2014January28MOKR.MemorySun.doc<=
+/span></a></div>
+</div></div>
+
+--001a11c3e246f9b85b04f115bc6d--

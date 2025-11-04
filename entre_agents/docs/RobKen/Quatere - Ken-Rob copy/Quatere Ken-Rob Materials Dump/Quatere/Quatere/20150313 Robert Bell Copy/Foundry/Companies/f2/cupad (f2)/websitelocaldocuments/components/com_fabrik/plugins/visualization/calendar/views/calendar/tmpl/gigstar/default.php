@@ -1,0 +1,1 @@
+<?php// Check to ensure this file is included in Joomla!defined('_JEXEC') or die();global $Itemid;$row =& $this->row;?><h1><?php echo $row->label;?></h1><div id='calendar-message'></div><a href="#" id="addEventButton">add</a><div><?php echo $row->intro_text;?></div><div id='calendar'></div>

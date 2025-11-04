@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<name>AceSEF</name>
+	<author>JoomAce LLC</author>
+	<creationDate>29 August 2009</creationDate>
+	<authorEmail>info@joomace.net</authorEmail>
+	<authorUrl>http://www.joomace.net</authorUrl>
+	<copyright>(C) 2009 JoomAce LLC</copyright>
+	<license>GNU General Public License</license>
+	<version>1.1.3</version>
+	<description>AceSEF is a flexible and powerful SEF URLs and Meta Tags generator with an easy-to-use graphical user interface that simplifies the generation and management of your URLs.</description>
+	<files>
+	</files>
+	<administration>
+		<languages folder="languages">
+			<language tag="">da-DK/da-DK.com_acesef.ini</language>
+			<language tag="">de-DE/de-DE.com_acesef.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_acesef.ini</language>
+			<language tag="">es-ES/es-ES.com_acesef.ini</language>
+			<language tag="">fr-FR/fr-FR.com_acesef.ini</language>
+			<language tag="">hu-HU/hu-HU.com_acesef.ini</language>
+			<language tag="">it-IT/it-IT.com_acesef.ini</language>
+			<language tag="">pl-PL/pl-PL.com_acesef.ini</language>
+			<language tag="">pt-BR/pt-BR.com_acesef.ini</language>
+			<language tag="">pt-PT/pt-PT.com_acesef.ini</language>
+			<language tag="">ru-RU/ru-RU.com_acesef.ini</language>
+			<language tag="">sr-RS/sr-RS.com_acesef.ini</language>
+			<language tag="">tr-TR/tr-TR.com_acesef.ini</language>
+			<language tag="">zh-CN/zh-CN.com_acesef.ini</language>
+			<language tag="">zh-TW/zh-TW.com_acesef.ini</language>
+		</languages>
+		<menu img="components/com_acesef/assets/images/favicon.png">AceSEF</menu>
+		<submenu>
+	    	<menu link="option=com_acesef" img="components/com_acesef/assets/images/favicon.png">Control Panel</menu>
+	    	<menu link="option=com_acesef&amp;controller=config&amp;task=edit" img="components/com_acesef/assets/images/icon-16-configuration.png">Configuration</menu>
+	      	<menu link="option=com_acesef&amp;controller=extensions&amp;task=view" img="components/com_acesef/assets/images/icon-16-extensions.png">Extensions</menu>
+	      	<menu link="option=com_acesef&amp;controller=routers&amp;task=view" img="components/com_acesef/assets/images/icon-16-routers.png">Routers</menu>
+	      	<menu link="option=com_acesef&amp;controller=import&amp;task=view" img="components/com_acesef/assets/images/icon-16-import.png">Import / Migrate</menu>
+	      	<menu link="option=com_acesef&amp;controller=upgrade&amp;task=view" img="components/com_acesef/assets/images/icon-16-upgrade.png">Upgrade</menu>
+	      	<menu link="option=com_acesef&amp;controller=repository&amp;task=view&amp;type=1" img="components/com_acesef/assets/images/icon-16-url-sef.png">SEF URLs</menu>
+	      	<menu link="option=com_acesef&amp;controller=repository&amp;task=view&amp;type=2" img="components/com_acesef/assets/images/icon-16-url-custom.png">Custom URLs</menu>
+	      	<menu link="option=com_acesef&amp;controller=repository&amp;task=view&amp;type=3" img="components/com_acesef/assets/images/icon-16-url-404.png">404 URLs</menu>
+	      	<menu link="option=com_acesef&amp;controller=support&amp;task=support" img="components/com_acesef/assets/images/icon-16-support.png">Support</menu>
+	      	<menu link="option=com_acesef&amp;controller=support&amp;task=changelog" img="components/com_acesef/assets/images/icon-16-changelog.png">Changelog</menu>
+	    </submenu>
+		<files>
+			<!-- Files -->
+			<filename>index.html</filename>
+			<filename>acesef.xml</filename>
+			<filename>admin.acesef.php</filename>
+			<filename writable="yes">configuration.php</filename>
+			<filename>controller.php</filename>
+			<filename>install.acesef.php</filename>
+			<filename>uninstall.acesef.php</filename>
+			<filename>toolbar.acesef.php</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+			<!-- Folders -->
+			<folder>assets</folder>
+			<folder>classes</folder>
+			<folder>controllers</folder>
+			<folder writable="yes">extensions</folder>
+			<folder>models</folder>
+			<folder>plugin</folder>
+			<folder>tables</folder>
+			<folder>upgrade</folder>
+			<folder>views</folder>
+		</files>
+	</administration>
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.sql</file>
+		</sql>
+	</uninstall>
+	<installfile>install.acesef.php</installfile>
+	<uninstallfile>uninstall.acesef.php</uninstallfile>
+</install>

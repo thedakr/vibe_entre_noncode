@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <params group="acesef">
+		<param name="limitnum" type="text" default="5" size="5" label="Items per page" description="Ignore this field if you're not having problems with pagination because it's required only if the component doesn't use the $limit value in Real URLs." />
+		<param name="override" type="radio" default="1" label="Override ItemID" description="You can override the menu item ID for all menu items of this component.">
+		  <option value="1">No</option>
+		  <option value="2">Yes</option>
+		</param>
+		<param name="overrideId" type="text" default="1" size="5" label="Menu ItemID" description="Menu item ID to use always for this component." />
+		<param type="spacer" default="&lt;hr/&gt;" />
+	</params>
+</metadata>

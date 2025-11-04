@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>securityimages</name>
+	<productName>securityimages</productName>
+	<creationDate>08.01.2005</creationDate>
+	<author>Cedric Walter</author>
+	<authorEmail>www.waltercedric.com</authorEmail>
+	<authorUrl>www.waltercedric.com</authorUrl>
+	<copyright>(c) 2007 Cedric Walter www.waltercedric.com </copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>5.1.2</version>
+	<description>protect Joomla form or 3rd party forms against spammers using captcha</description>
+	
+	<!-- Install Database Section -->
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.mysql.utf8.sql</file>
+			<file driver="mysql">install.mysql.nonutf8.sql</file>
+		</sql>
+	</install>
+	<!-- Uninstall Database Section -->
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.mysql.utf8.sql</file>
+			<file driver="mysql" charset="utf8">uninstall.mysql.nonutf8.sql</file>
+		</sql>
+	</uninstall>
+   <installfile>install.securityimages.php</installfile>
+   <uninstallfile>uninstall.securityimages.php</uninstallfile>
+	<media folder="backgrounds" destination="com_securityimages/backgrounds">
+		<filename>bg-L-1.png</filename>
+		<filename>bg-L-2.png</filename>
+		<filename>bg-L-3.png</filename>
+		<filename>bg-L-4.png</filename>
+		<filename>bg-L-5.png</filename>
+		<filename>bg-L-6.png</filename>
+		<filename>bg-L-7.png</filename>
+		<filename>bg-L-8.png</filename>
+		<filename>bg-L-9.png</filename>
+		<filename>bg-L-10.png</filename>
+		<filename>bg-L-11.png</filename>
+		<filename>bg-L-12.png</filename>
+		<filename>bg-L-13.png</filename>
+		<filename>bg-L-14.png</filename>
+		<filename>bg-L-15.png</filename>
+		<filename>bg-L-16.png</filename>
+		<filename>bg-L-17.png</filename>
+		<filename>bg-L-18.png</filename>
+		<filename>bg-L-19.png</filename>
+		<filename>bg-L-20.png</filename>
+		<filename>bg-L-21.png</filename>
+		<filename>bg-L-22.png</filename>
+		<filename>bg-L-23.png</filename>
+		<filename>bg-L-24.png</filename>
+		<filename>bg-S-1.png</filename>
+		<filename>bg-S-2.png</filename>
+		<filename>bg-S-3.png</filename>
+		<filename>bg-S-4.png</filename>
+		<filename>bg-S-5.png</filename>
+		<filename>bg-S-6.png</filename>
+		<filename>bg-S-7.png</filename>
+		<filename>bg-S-8.png</filename>
+		<filename>bg-S-9.png</filename>
+		<filename>bg-S-10.png</filename>
+		<filename>bg-S-11.png</filename>
+		<filename>bg-S-12.png</filename>
+		<filename>bg-S-13.png</filename>
+		<filename>bg-S-14.png</filename>
+		<filename>bg-S-15.png</filename>
+		<filename>bg-S-16.png</filename>
+		<filename>bg-S-17.png</filename>
+		<filename>bg-S-18.png</filename>
+		<filename>bg-S-19.png</filename>
+		<filename>bg-S-20.png</filename>
+		<filename>bg-S-21.png</filename>
+		<filename>bg-S-22.png</filename>
+		<filename>bg-S-23.png</filename>
+		<filename>bg-S-24.png</filename>
+		<filename>ht_freecap_im1.jpg</filename>
+		<filename>ht_freecap_im2.jpg</filename>
+		<filename>ht_freecap_im3.jpg</filename>
+		<filename>ht_freecap_im4.jpg</filename>
+		<filename>ht_freecap_im5.jpg</filename>
+	</media>
+	
+
+	<files>
+		<filename>buttons/reload.gif</filename>
+		<filename>buttons/speaker.gif</filename>
+		<filename>buttons/index.html</filename>
+		
+		<filename>index.html</filename>
+		<filename>securityimages.css</filename>
+		
+		<filename>securityimages.php</filename>
+		<filename>controller.php</filename>
+		
+		<filename>js/index.html</filename>
+		<filename>js/securityImages.js</filename>
+		
+		<filename>plugins/index.html</filename>
+		
+		<filename>plugins/core/index.html</filename>
+		<filename>plugins/core/1.1/index.html</filename>
+		<filename>plugins/core/1.1/imageGenerator.php</filename>
+		<filename>plugins/core/1.1/core.php</filename>
+
+		<filename>plugins/calculator/index.html</filename>
+		<filename>plugins/calculator/1.0/index.html</filename>
+		<filename>plugins/calculator/1.0/imageGenerator.php</filename>
+		<filename>plugins/calculator/1.0/calculator.php</filename>
+
+		<filename>plugins/freecap/index.html</filename>
+		<filename>plugins/freecap/1.4/index.html</filename>
+		<filename>plugins/freecap/1.4/imageGenerator.php</filename>
+
+
+		<filename>plugins/hncaptcha/index.html</filename>
+		<filename>plugins/hncaptcha/1.0/index.html</filename>
+		<filename>plugins/hncaptcha/1.0/hn_captcha.php</filename>
+		<filename>plugins/hncaptcha/1.0/imageGenerator.php</filename>
+		
+		<filename>plugins/watercap/index.html</filename>
+		<filename>plugins/watercap/1.0/index.html</filename>
+		<filename>plugins/watercap/1.0/imageGenerator.php</filename>
+		<filename>plugins/watercap/1.0/watercap.php</filename>
+		
+		
+		<!--
+		<filename file="meta">de-DE.xml</filename> 
+		<filename file="meta">fr-FR.xml</filename> 
+		<filename file="meta">cz-CZ.xml</filename> 
+		<filename file="meta">hu-HU.xml</filename> 
+		<filename file="meta">jp-JP.xml</filename> 
+		<filename file="meta">br-BR.xml</filename>
+		 --> 
+	</files>
+	
+	<languages>
+		<language tag="en-GB">en-GB.com_securityimages.ini</language>
+		<language tag="de-DE">de-DE.com_securityimages.ini</language>
+	</languages>
+	
+	<administration>
+		<menu img="com_securityimages/logo/com_securityimages.jpg">Security Images</menu>
+		<submenu>
+			<menu task="general_settings">Edit General Settings</menu>
+			<menu task="editgenerallanguage">Edit Language</menu>
+			<menu task="settings">Edit Plugins Settings</menu>
+			<menu task="showlogs">View logs file</menu>
+			<menu task="checkSystem">Check Your System</menu>
+			<menu task="developer">For Developer</menu>
+			<menu task="troubles">Troubleshootings</menu>
+			<menu task="aboutcore">About Plugin</menu>
+			<menu task="about">About Security images</menu>
+			
+			<menu task="checkLatest">Check for latest version</menu>
+			<menu task="getJoomlaPatches">Get Joomla Patches</menu>
+		</submenu>
+		
+		<filename file="meta">en-GB.xml</filename>
+		
+		<languages>
+			<language tag="en-GB">en-GB.com_securityimages.ini</language>
+			<language tag="de-DE">de-DE.com_securityimages.ini</language>
+		</languages>
+		
+		<media folder="logo">
+		   <filename>section.securityimages.png</filename>
+		</media>
+		
+		
+			
+		<files>
+			<filename>plugin.zip</filename>
+			
+			<filename>fonts/index.html</filename>
+			<filename>fonts/aajax.ttf</filename>
+			<filename>fonts/admono.ttf</filename>
+			<filename>fonts/garamond.ttf</filename>
+			<filename>fonts/lydian.ttf</filename>
+			<filename>fonts/rubberst.ttf</filename>
+			<filename>fonts/zinjaron.ttf</filename>
+			<filename>fonts/ht_freecap_font1.gdf</filename>
+			<filename>fonts/ht_freecap_font2.gdf</filename>
+			<filename>fonts/ht_freecap_font3.gdf</filename>
+			<filename>fonts/ht_freecap_font4.gdf</filename>
+			<filename>fonts/ht_freecap_font5.gdf</filename>
+
+			<filename>logo/index.html</filename>
+			<filename>logo/securityImage_logosmall.png</filename>
+			<filename>logo/core1.1.png</filename>
+			<filename>logo/freecap1.4.png</filename>
+			<filename>logo/calculator.jpg</filename>
+			<filename>logo/watercap.png</filename>
+			<filename>logo/hncaptha1.0.jpg</filename>
+			<filename>logo/com_securityimages.jpg</filename>
+			<filename>logo/com_securityimages.png</filename>
+			
+			<filename>logo/www.waltercedric.com.jpg</filename>
+			<filename>logo/wiki.waltercedric.com.jpg</filename>
+			<filename>logo/forums.waltercedric.com.jpg</filename>
+			<filename>logo/demo2.waltercedric.com.jpg</filename>
+			<filename>logo/bugs.waltercedric.com.jpg</filename>
+			<filename>logo/contact.settings.securityimages.5.0.gif</filename>
+	
+			
+			<filename>dictionary/index.html</filename>
+			<filename>dictionary/en-GB_words</filename>
+			
+			<filename>views/index.html</filename>
+			<filename>views/tmpl/index.html</filename>
+			<filename>views/tmpl/default.php</filename>
+		
+		
+			<filename>install.mysql.utf8.sql</filename>
+			<filename>install.mysql.nonutf8.sql</filename>
+			<filename>uninstall.mysql.utf8.sql</filename>
+			<filename>uninstall.mysql.nonutf8.sql</filename>
+		
+		
+			<filename>manuals/index.html</filename>
+			<filename>manuals/en-GB/about.html</filename>
+			<filename>manuals/en-GB/developer.html</filename>
+			<filename>manuals/en-GB/troubles.html</filename>
+			<filename>manuals/en-GB/index.html</filename>
+			<filename>manuals/de-DE/about.html</filename>
+			<filename>manuals/de-DE/developer.html</filename>
+			<filename>manuals/de-DE/troubles.html</filename>
+			<filename>manuals/de-DE/index.html</filename>
+			
+			<filename>changelog.txt</filename>
+			<filename>admin.controller.php</filename>
+			<filename>admin.securityimages.php</filename>
+			
+			<filename>gpl-3.0.txt</filename>
+			
+			<filename>class/config.php</filename>
+			<filename>class/fileselector.php</filename>
+			<filename>class/language.php</filename>
+			<filename>class/logUtils.php</filename>
+			<filename>class/securityImagesDao.php</filename>
+			<filename>class/securityImagesLogsDao.php</filename>
+			<filename>class/sound.php</filename>
+			<filename>class/systeminfo.php</filename>
+			<filename>class/SecurityImagesHelper.php</filename>
+			
+			<filename>config.securityimages.php</filename>
+			<filename>securityimages.xml</filename>
+
+			<filename>toolbar.securityimages.html.php</filename>
+			<filename>toolbar.securityimages.php</filename>
+			<filename>index.html</filename>
+
+			<filename>pluginsA/index.html</filename>
+			<filename>pluginsA/calculator/index.html</filename>
+			<filename>pluginsA/calculator/1.0/index.html</filename>
+			<filename>pluginsA/calculator/1.0/adminpanel.php</filename>
+			<filename>pluginsA/calculator/1.0/checker.php</filename>
+			<filename>pluginsA/calculator/1.0/config.php</filename>
+			
+			<filename>pluginsA/core/index.html</filename>
+			<filename>pluginsA/core/1.1/index.html</filename>
+			<filename>pluginsA/core/1.1/adminpanel.php</filename>
+			<filename>pluginsA/core/1.1/config.php</filename>
+			<filename>pluginsA/core/1.1/checker.php</filename>
+			<filename>pluginsA/core/1.1/utils.php</filename>
+			
+			<filename>pluginsA/freecap/index.html</filename>
+			<filename>pluginsA/freecap/1.4/index.html</filename>
+			<filename>pluginsA/freecap/1.4/adminpanel.php</filename>
+			<filename>pluginsA/freecap/1.4/config.php</filename>
+			<filename>pluginsA/freecap/1.4/checker.php</filename>
+			<filename>pluginsA/freecap/1.4/utils.php</filename>
+			
+			<filename>pluginsA/hncaptcha/index.html</filename>
+			<filename>pluginsA/hncaptcha/1.0/index.html</filename>
+			<filename>pluginsA/hncaptcha/1.0/adminpanel.php</filename>
+			<filename>pluginsA/hncaptcha/1.0/config.php</filename>
+			<filename>pluginsA/hncaptcha/1.0/checker.php</filename>
+			<filename>pluginsA/hncaptcha/1.0/utils.php</filename>
+			
+			<filename>pluginsA/watercap/index.html</filename>
+			<filename>pluginsA/watercap/1.0/index.html</filename>
+			<filename>pluginsA/watercap/1.0/adminpanel.php</filename>
+			<filename>pluginsA/watercap/1.0/config.php</filename>
+			<filename>pluginsA/watercap/1.0/checker.php</filename>
+			
+			<filename>pluginsA/recaptcha/index.html</filename>
+			<filename>pluginsA/recaptcha/1.10/index.html</filename>
+			<filename>pluginsA/recaptcha/1.10/adminpanel.php</filename>
+			<filename>pluginsA/recaptcha/1.10/recaptchalib.php</filename>
+			<filename>pluginsA/recaptcha/1.10/config.php</filename>
+			<filename>pluginsA/recaptcha/1.10/checker.php</filename>
+			
+			
+		    <filename>selenium/index.html</filename>
+		</files>
+	</administration>
+</install>

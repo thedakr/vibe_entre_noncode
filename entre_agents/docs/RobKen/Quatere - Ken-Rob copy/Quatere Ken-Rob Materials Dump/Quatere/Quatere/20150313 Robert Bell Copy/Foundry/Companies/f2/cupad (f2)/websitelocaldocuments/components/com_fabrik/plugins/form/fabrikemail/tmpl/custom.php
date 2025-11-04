@@ -1,0 +1,1 @@
+<p>This is a sample email template. It will just print out all of the request data:</p><pre><?php//to access a specific value doprint_r($this->data['tablename___elementname']);?></pre>handset = {element_test___Handsets}

@@ -1,0 +1,1 @@
+<?php// no direct accessdefined( '_JEXEC' ) or die( 'Restricted access' );define( "COM_FABRIK_BASE",  str_replace(DS.'administrator', '', JPATH_BASE) );define( "COM_FABRIK_FRONTEND",  COM_FABRIK_BASE.DS.'components'.DS.'com_fabrik' );define( "COM_FABRIK_LIVESITE",  str_replace('/administrator', '', JURI::base()) );?>

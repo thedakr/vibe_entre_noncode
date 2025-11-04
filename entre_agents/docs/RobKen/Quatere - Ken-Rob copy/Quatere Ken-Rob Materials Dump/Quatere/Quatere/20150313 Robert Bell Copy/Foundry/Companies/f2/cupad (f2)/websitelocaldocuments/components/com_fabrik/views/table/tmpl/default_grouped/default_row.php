@@ -1,0 +1,1 @@
+<tr id="<?php echo $this->_row->id;?>" class="<?php echo $this->_row->class;?>">	<?php foreach ($this->headings as $heading=>$label) {	?>		<td class="fabrik_row___<?php echo $heading ?>" ><?php echo @$this->_row->data->$heading;?></td>	<?php }?></tr><?php$this->_c = 1-$this->_c;?>

@@ -1,0 +1,45 @@
+Delivered-To: usparkfoundry@gmail.com
+Received: by 10.180.10.135 with SMTP id i7csp79820wib;
+        Sun, 2 Feb 2014 10:50:09 -0800 (PST)
+Return-Path: <elliotabel7@gmail.com>
+Received-SPF: pass (google.com: domain of elliotabel7@gmail.com designates 10.180.19.69 as permitted sender) client-ip=10.180.19.69
+Authentication-Results: mr.google.com;
+       spf=pass (google.com: domain of elliotabel7@gmail.com designates 10.180.19.69 as permitted sender) smtp.mail=elliotabel7@gmail.com;
+       dkim=pass header.i=@gmail.com
+X-Received: from mr.google.com ([10.180.19.69])
+        by 10.180.19.69 with SMTP id c5mr2463266wie.7.1391367008692 (num_hops = 1);
+        Sun, 02 Feb 2014 10:50:08 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=OeRNVEoeEZC4Fx/UvTxV8H3HX229dj0s2kaZdE90S5E=;
+        b=Y5Ol/3gze5YvyFsew/z1Uh5yuZjRQY0W/WnLql2wnZaK+Od5XxdEz9vHnj0whriAY1
+         V4nDsTNlhdHxzhue9QX1FWxa3QuP7E90G+hnU/5VCoL/GREEu1smmTtxv07D51x6lxUK
+         tunmCSnvY7Kp7bmzfwYOtbX+jGixpx8EMhbjJp9hOzf5Q+DoTk08iHm2FVWQ50rHUqSN
+         FlPtnxxuroSK4To5fzI2sokdNjQcNOk1bsA8rpp7RLrdRxE5ASFBx1QOMrmyOpEv9oHU
+         eQDv7zAlWKPZF88jbr8xiRBg2aC2TCkvPZUUiGVfNegBZhj6tnrjwFVTq+BGOKHRSyJ+
+         ++Tg==
+MIME-Version: 1.0
+X-Received: by 10.180.19.69 with SMTP id c5mr2463266wie.7.1391367008686; Sun,
+ 02 Feb 2014 10:50:08 -0800 (PST)
+Received: by 10.194.32.225 with HTTP; Sun, 2 Feb 2014 10:50:08 -0800 (PST)
+Date: Sun, 2 Feb 2014 11:50:08 -0700
+Message-ID: <CAGTxsb5n6rLhY2zsFtWemEEdXXxG9u7-SmusS+_0WxnRSc=+Xw@mail.gmail.com>
+Subject: Application?
+From: Elliot D <elliotabel7@gmail.com>
+To: Foundry Administration <usparkfoundry@gmail.com>
+Content-Type: multipart/alternative; boundary=bcaec53d5a8b4e176804f170e083
+
+--bcaec53d5a8b4e176804f170e083
+Content-Type: text/plain; charset=ISO-8859-1
+
+I submitted my application on the 29th and I know the first meeting is
+tomorrow... I haven't heard back from you guys yet so I was just wondering my
+status.
+
+--bcaec53d5a8b4e176804f170e083
+Content-Type: text/html; charset=ISO-8859-1
+
+<div dir="ltr">I submitted my application on the 29th and I know the first meeting is tomorrow&hellip; I haven&#39;t heard back from you guys yet so I was just wondering my status.</div>
+
+--bcaec53d5a8b4e176804f170e083--

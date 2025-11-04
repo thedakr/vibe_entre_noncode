@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="acesef" version="1.5.0">
+	<name>User</name>
+	<author>JoomAce LLC</author>
+	<creationDate>August 2009</creationDate>
+	<copyright>(C) 2009 JoomAce LLC</copyright>
+	<license>GNU General Public License</license>
+	<authorEmail>info@joomace.net</authorEmail>
+	<authorUrl>www.joomace.net</authorUrl>
+	<version>1.0.1</version>
+	<description>User extension for AceSEF.</description>
+	<extension>com_user</extension>
+	<files>
+		<filename module="com_user">com_user.php</filename>
+		<filename module="com_user">com_user.xml</filename>
+	</files>
+	<params group="sef">
+		<param name="limitnum" type="text" default="5" label="Items per page" description="Ignore this field if you're not having problems with pagination because it's required only if the component doesn't use the $limit value in Real URLs." />
+		<param name="override" type="radio" default="1" label="Override ItemID" description="You can override the menu item ID for all menu items of this component.">
+		  <option value="1">No</option>
+		  <option value="2">Yes</option>
+		</param>
+		<param name="overrideId" type="text" default="" label="Menu ItemID" description="Menu item ID to use always for this component." />
+	</params>
+	<params group="seo">
+		<param name="enable_auto" type="radio" default="2" label="Enable auto meta" description="Enable generating automatic meta tags.">
+			<option value="1">No</option>
+			<option value="2">Yes</option>
+		</param>
+		<param type="spacer" default="&lt;hr/&gt;" />
+		<param name="separator" type="text" size="1" default="-" label="Title separator" description="This is the character that separates your page titles from your site name." />
+		<param name="custom_sitename" type="text" default="" label="Custom site name" description="Enter a custom site name to use for page title." />
+		<param name="use_sitename" type="list" default="2" label="Include site name" description="Include site name in title." >
+			<option value="1">Yes - before page title</option>
+			<option value="2">Yes - after page title</option>
+			<option value="3">No</option>
+		</param>
+		<param name="title_prefix" type="text" default="" label="Title Prefix" description="Prefix to add before page title"/>
+		<param name="title_suffix" type="text" default="" label="Title Suffix" description="Suffix to add after page title"/>
+	</params>
+</install>

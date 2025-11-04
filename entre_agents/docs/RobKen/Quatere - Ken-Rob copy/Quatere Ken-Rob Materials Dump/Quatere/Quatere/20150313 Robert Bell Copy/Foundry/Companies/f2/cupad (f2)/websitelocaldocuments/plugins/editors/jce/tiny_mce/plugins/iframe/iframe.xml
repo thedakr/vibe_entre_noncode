@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<install version="1.5.0" type="plugin" plugin="iframe">
+	<name>IFrame Plugin</name>
+	<version>154</version>
+	<creationDate>30 July 2009</creationDate>
+	<author>Ryan Demmer</author>
+	<authorEmail>ryandemmer@gmail.com</authorEmail>
+	<authorUrl>http://www.joomlacontenteditor.net</authorUrl>
+	<copyright>Copyright (C) 2009 Ryan Demmer. All rights reserved</copyright>
+	<license>GNU/GPL</license>
+	<description>JCE IFRAME DESC</description>
+	<icon>iframe</icon>
+	<layout>iframe</layout>
+	<elements></elements>
+	<params group="defaults">
+		<param name="iframe_width" type="text" default="100" label="WIDTH" description="WIDTH DESC"/>
+		<param name="iframe_width_type" type="list" default="pct" label="WIDTH TYPE" description="WIDTH TYPE DESC">
+			<option value="pct">%</option>
+			<option value="px">px</option>
+		</param>
+		<param name="iframe_height" type="text" default="100" label="HEIGHT" description="HEIGHT DESC"/>
+		<param name="iframe_height_type" type="list" default="pct" label="HEIGHT TYPE" description="HEIGHT TYPE DESC">
+			<option value="pct">%</option>
+			<option value="px">px</option>
+		</param>
+		<param name="iframe_margin_top" type="list" default="default" label="MARGIN TOP" description="MARGIN DESC">
+			<option value="default">NOT SET</option>
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</param>
+		<param name="iframe_margin_right" type="list" default="default" label="MARGIN RIGHT" description="MARGIN DESC">
+			<option value="default">NOT SET</option>
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</param>
+		<param name="iframe_margin_bottom" type="list" default="default" label="MARGIN BOTTOM" description="MARGIN DESC">
+			<option value="default">NOT SET</option>
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</param>
+		<param name="iframe_margin_left" type="list" default="default" label="MARGIN LEFT" description="MARGIN DESC">
+			<option value="default">NOT SET</option>
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</param>
+        <param name="iframe_frameborder" type="list" default="0" label="FRAMEBORDER" description="FRAMEBORDER DESC">
+				<option value="0">NO</option>
+                <option value="1">YES</option>
+		</param>
+		<param name="iframe_scrolling" type="list" default="auto" label="SCROLLING" description="SCROLLING DESC">
+				<option value="no">NO</option>
+                <option value="yes">YES</option>
+				<option value="auto">AUTO</option>
+		</param>
+		<param name="iframe_marginwidth" type="text" default="" label="MARGINWIDTH" description="MARGINWIDTH DESC"/>
+		<param name="iframe_marginheight" type="text" default="" label="MARGINHEIGHT" description="MARGINHEIGHT DESC"/>
+        <param name="iframe_align" type="list" default="default" label="ALIGN" description="ALIGN DESC">
+                <option value="default">NOT SET</option>
+                <option value="top">ALIGN TOP</option>
+                <option value="middle">ALIGN MIDDLE</option>
+                <option value="bottom">ALIGN BOTTOM</option>
+                <option value="left">ALIGN LEFT</option>
+                <option value="right">ALIGN RIGHT</option>
+        </param>
+	</params>
+	<files>
+		<file>classes/config.php</file>
+		<file>classes/iframe.php</file>
+		<file>classes/index.html</file>
+		<file>css/content.css</file>
+		<file>css/iframe.css</file>
+		<file>css/index.html</file>
+		<file>editor_plugin.js</file>
+		<file>iframe.php</file>
+		<file>img/iframe.gif</file>
+		<file>img/index.html</file>
+		<file>img/preview.jpg</file>
+		<file>img/sample.jpg</file>
+		<file>img/trans.gif</file>
+		<file>index.html</file>
+		<file>js/iframe.js</file>
+		<file>js/index.html</file>
+		<file>langs/en.js</file>
+		<file>langs/index.html</file>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.com_jce_iframe.ini</language>
+	</languages>
+	<help>
+		<topic key="iframe.about" title="Help About" />
+		<topic key="iframe.interface" title="Help Interface" />
+		<topic key="iframe.advanced" title="Help Advanced" />
+		<topic key="iframe.insert" title="Help Insert" />
+	</help>
+</install>

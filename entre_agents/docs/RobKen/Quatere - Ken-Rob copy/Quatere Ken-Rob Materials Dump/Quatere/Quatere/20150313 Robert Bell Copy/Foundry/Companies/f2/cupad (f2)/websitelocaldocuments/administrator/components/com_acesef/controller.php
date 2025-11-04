@@ -1,0 +1,1 @@
+<?php/*** @version		1.1.0* @package		AceSEF* @subpackage	AceSEF* @copyright	2009 JoomAce LLC, www.joomace.net* @license		GNU/GPL*/// No Permissiondefined('_JEXEC') or die('Restricted access');jimport('joomla.application.component.controller');class AcesefController extends JController {	function display() {		parent::display();	}}

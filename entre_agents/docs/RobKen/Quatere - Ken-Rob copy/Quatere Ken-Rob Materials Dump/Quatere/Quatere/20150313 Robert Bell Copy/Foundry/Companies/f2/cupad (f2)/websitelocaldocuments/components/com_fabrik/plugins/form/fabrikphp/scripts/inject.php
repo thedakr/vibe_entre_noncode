@@ -1,0 +1,1 @@
+<?phpecho "<h1>script inject</h1>";?>

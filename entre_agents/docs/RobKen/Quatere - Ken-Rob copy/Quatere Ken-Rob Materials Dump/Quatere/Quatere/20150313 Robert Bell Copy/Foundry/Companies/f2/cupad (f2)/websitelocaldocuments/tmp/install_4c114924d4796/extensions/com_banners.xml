@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="acesef" version="1.5.0">
+	<name>Banners</name>
+	<author>JoomAce LLC</author>
+	<creationDate>August 2009</creationDate>
+	<copyright>(C) 2009 JoomAce LLC</copyright>
+	<license>GNU General Public License</license>
+	<authorEmail>info@joomace.net</authorEmail>
+	<authorUrl>www.joomace.net</authorUrl>
+	<version>1.0.0</version>
+	<description>Banners extension for AceSEF.</description>
+	<extension>com_banners</extension>
+	<files>
+		<filename module="com_banners">com_banners.php</filename>
+		<filename module="com_banners">com_banners.xml</filename>
+	</files>
+	<params group="sef">
+		<param name="banner_part" type="list" default="title" label="Banner URL part" description="Banner URL part.">
+ 			<option value="title">Title</option>
+ 			<option value="alias">Alias</option>
+ 		</param>
+		<param type="spacer" default="&lt;hr/&gt;" />
+		<param name="bannerid_inc" type="radio" default="1" label="Add banner ID to URL" description="If set to Yes, banner ID will be prepended to banner name.">
+ 			<option value="1">No</option>
+ 			<option value="2">Yes</option>
+ 		</param>
+	</params>
+</install>
