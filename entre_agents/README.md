@@ -69,14 +69,14 @@ cp .env.example .env
 ### 4. Run the Chief of Staff
 
 ```bash
-# Start interactive chat
-python src/cli.py
+# Start interactive chat with Chief of Staff
+python3 src/ventre_chief_of_staff.py
 
 # Get morning briefing
-python src/cli.py --briefing
+python3 src/ventre_chief_of_staff.py --briefing
 
 # Get evening recap
-python src/cli.py --recap
+python3 src/ventre_chief_of_staff.py --recap
 ```
 
 ## Configuration
@@ -131,7 +131,7 @@ python3 src/core/migrate_to_uuid.py --old-id default_user --update-env --auto
 ### Interactive Chat
 
 ```bash
-python src/cli.py
+python3 src/ventre_chief_of_staff.py
 ```
 
 ```
@@ -153,13 +153,13 @@ What's your #1 priority today?
 ### Morning Briefing
 
 ```bash
-python src/cli.py --briefing
+python3 src/ventre_chief_of_staff.py --briefing
 ```
 
 ### Evening Recap
 
 ```bash
-python src/cli.py --recap
+python3 src/ventre_chief_of_staff.py --recap
 ```
 
 ### CLI Commands
@@ -246,7 +246,7 @@ entre_agents/
 │   ├── agents/
 │   │   └── chief_of_staff.py # Chief of Staff agent
 │   │
-│   └── cli.py                 # Command-line interface
+│   └── ventre_chief_of_staff.py  # Chief of Staff launcher
 │
 ├── docs/
 │   ├── v2/                    # Agent specifications

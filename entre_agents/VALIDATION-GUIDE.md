@@ -111,7 +111,7 @@ python -c "from src.core.config import Config; from src.core.llm_client import L
 ### Step 5: Start CLI
 
 ```bash
-python src/cli.py
+python3 src/ventre_chief_of_staff.py
 ```
 
 **Expected Output:**
@@ -315,7 +315,7 @@ Total Messages: [number]
 **Test Steps:**
 1. Have a conversation (3-4 messages)
 2. Type `quit` to exit
-3. Restart CLI: `python src/cli.py`
+3. Restart CLI: `python3 src/ventre_chief_of_staff.py`
 4. Type `/status` to check message count
 5. Start new conversation
 
