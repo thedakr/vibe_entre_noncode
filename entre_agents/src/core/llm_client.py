@@ -29,7 +29,7 @@ class LLMClient:
             try:
                 from anthropic import Anthropic
                 self.client = Anthropic(api_key=self.api_key)
-                self.model = model or "claude-3-5-sonnet-20240620"  # Latest Sonnet
+                self.model = model or "claude-sonnet-4-5-20250929"  # Claude Sonnet 4.5 (latest)
             except ImportError:
                 raise ImportError("Anthropic support requires: pip install anthropic")
 
