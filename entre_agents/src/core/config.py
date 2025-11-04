@@ -4,6 +4,7 @@ Loads settings from environment variables and .env files.
 """
 
 import os
+import uuid
 from pathlib import Path
 from typing import Optional
 
@@ -47,6 +48,11 @@ class Config:
         self.entrepreneur_id = os.getenv("ENTREPRENEUR_ID", "default_user")
         self.agent_mode = os.getenv("AGENT_MODE", "development")  # development or production
 
+        # Auto-generate UUID if using default_user (for cloud scalability)
+        self._env_file_path = env_file
+        if self.entrepreneur_id == "default_user":
+            self.entrepreneur_id = self._get_or_create_uuid()
+
         # Logging
         self.log_level = os.getenv("LOG_LEVEL", "INFO")
         self.log_file = os.getenv("LOG_FILE", "logs/ventre.log")
@@ -84,6 +90,84 @@ class Config:
                         key = key.strip()
                         value = value.strip().strip('"').strip("'")
                         os.environ[key] = value
+
+    def _get_or_create_uuid(self) -> str:
+        """
+        Get or create a UUID for the entrepreneur.
+
+        Checks for a saved UUID file first, then generates and saves a new one
+        if not found. This ensures each installation gets a unique, persistent ID.
+
+        Returns:
+            UUID string
+        """
+        # UUID file stored alongside the database
+        uuid_file = Path(self.database_path).parent / ".entrepreneur_uuid"
+
+        # Try to load existing UUID
+        if uuid_file.exists():
+            try:
+                with open(uuid_file, 'r') as f:
+                    saved_uuid = f.read().strip()
+                    # Validate it's a proper UUID
+                    uuid.UUID(saved_uuid)
+                    return saved_uuid
+            except (ValueError, IOError):
+                pass  # Fall through to generate new UUID
+
+        # Generate new UUID
+        new_uuid = str(uuid.uuid4())
+
+        # Save to file
+        try:
+            uuid_file.parent.mkdir(parents=True, exist_ok=True)
+            with open(uuid_file, 'w') as f:
+                f.write(new_uuid)
+        except IOError as e:
+            print(f"Warning: Could not save UUID to {uuid_file}: {e}")
+
+        # Also try to update .env file if we can find it
+        if self._env_file_path and Path(self._env_file_path).exists():
+            try:
+                self._update_env_file_uuid(self._env_file_path, new_uuid)
+            except Exception as e:
+                print(f"Warning: Could not update .env file: {e}")
+
+        return new_uuid
+
+    def _update_env_file_uuid(self, env_file: str, new_uuid: str):
+        """
+        Update .env file with the generated UUID.
+
+        Args:
+            env_file: Path to .env file
+            new_uuid: UUID to write
+        """
+        env_path = Path(env_file)
+
+        # Read current .env
+        with open(env_path, 'r') as f:
+            lines = f.readlines()
+
+        # Update or add ENTREPRENEUR_ID line
+        updated = False
+        for i, line in enumerate(lines):
+            if line.strip().startswith('ENTREPRENEUR_ID='):
+                # Comment out the old line and add new one
+                if not line.startswith('#'):
+                    lines[i] = f'# {lines[i]}'
+                lines.insert(i + 1, f'ENTREPRENEUR_ID={new_uuid}\n')
+                updated = True
+                break
+
+        # If not found, add it at the end
+        if not updated:
+            lines.append(f'\n# Auto-generated UUID for cloud scalability\n')
+            lines.append(f'ENTREPRENEUR_ID={new_uuid}\n')
+
+        # Write back
+        with open(env_path, 'w') as f:
+            f.writelines(lines)
 
     def get_database_connection_string(self) -> str:
         """Get appropriate database connection string based on type."""
