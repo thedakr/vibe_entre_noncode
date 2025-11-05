@@ -297,6 +297,181 @@ Think of it as an operations architect who says: "Before you scale, build the op
 
 ---
 
+### Theory of Constraints (TOC) - Eliyahu Goldratt
+**Application:** Systematic bottleneck identification and resolution for maximum throughput
+
+**Core Insight:** Every system has ONE primary constraint (bottleneck) that limits overall performance. Optimizing anything other than the constraint is an illusion - it doesn't improve system output. Find the constraint, exploit it, subordinate everything else to it, elevate it, then repeat.
+
+**The Five Focusing Steps:**
+
+**1. IDENTIFY the Constraint**
+- What is the ONE bottleneck limiting your entire system?
+- Not "what's inefficient" but "what limits throughput"
+- Examples:
+  - **Customer onboarding:** 1 person can onboard 10 customers/week → constraint is onboarding capacity (can't grow faster than 10/week)
+  - **Product development:** QA takes 2 weeks, everything else takes days → QA is constraint
+  - **Sales:** Only 1 sales rep, can close 5 deals/month → sales capacity is constraint
+  - **Support:** Support tickets piling up, response time 48 hours → support capacity is constraint
+
+**2. EXPLOIT the Constraint**
+- Get maximum efficiency from the constraint with NO additional investment
+- Squeeze every bit of capacity from it
+- **DO NOT** try to optimize non-constraints yet
+- Examples:
+  - Onboarding constraint: Eliminate distractions, batch onboarding sessions, use templates
+  - QA constraint: Prioritize high-impact tests, automate repetitive tests, eliminate low-value QA
+  - Sales constraint: Give sales rep best leads only, remove non-selling tasks
+  - Support constraint: Create self-service docs, prioritize urgent tickets, eliminate low-value support
+
+**3. SUBORDINATE Everything Else**
+- Align ALL other activities to support the constraint
+- Don't optimize non-constraints - feed the constraint
+- Examples:
+  - Onboarding constraint: Marketing slows down lead gen to match onboarding capacity (don't pile up waitlist)
+  - QA constraint: Developers slow down feature releases to match QA capacity (don't create QA backlog)
+  - Sales constraint: Marketing focuses on quality over quantity (give sales best leads, not most leads)
+  - Support constraint: Product team prioritizes features that reduce support load
+
+**4. ELEVATE the Constraint**
+- Add capacity to the constraint (now you can invest/hire)
+- Only do this AFTER exploiting and subordinating
+- Examples:
+  - Onboarding constraint: Hire 2nd onboarding specialist OR automate onboarding
+  - QA constraint: Hire QA engineer OR implement automated testing
+  - Sales constraint: Hire 2nd sales rep OR implement product-led growth
+  - Support constraint: Hire support reps OR build better self-service
+
+**5. REPEAT (Don't Let Inertia Become the Constraint)**
+- Once elevated, a NEW constraint will emerge
+- Go back to step 1 with new constraint
+- Warning: Old policies/thinking become constraint if not updated
+- Example: After hiring 2nd sales rep, marketing becomes constraint (not enough leads for 2 reps)
+
+**Why Theory of Constraints is Powerful:**
+
+**Common Mistake (Optimizing Non-Constraints):**
+- ❌ QA is bottleneck (2 weeks), but you optimize development (now 1 day instead of 2 days)
+- **Result:** Development finishes faster but QA still takes 2 weeks → ZERO improvement in total time
+- **Waste:** Invested in optimization that didn't improve system throughput
+
+**TOC Approach (Optimizing the Constraint):**
+- ✅ QA is bottleneck (2 weeks) → optimize QA (automate tests, now 1 week)
+- **Result:** Total cycle time drops from 2+ weeks to 1+ week → ACTUAL improvement
+- **Impact:** Doubled system throughput by focusing on constraint
+
+**Practical TOC Application for Startups:**
+
+**Scenario 1: Growth Constraint**
+
+**System:** Customer acquisition and retention
+**Constraint Identification:**
+- Marketing generates 100 leads/month
+- Sales converts 20% = 20 customers/month
+- Onboarding capacity: 10 customers/month
+- **CONSTRAINT: Onboarding (can only handle 10/month, but sales closing 20)**
+
+**What NOT to do:**
+- ❌ Invest in more marketing (generates more leads but onboarding still capped at 10)
+- ❌ Hire more sales reps (closes more but onboarding still capped)
+- **Result:** Pile up customers waiting for onboarding, poor experience
+
+**TOC Approach:**
+- **Exploit:** Batch onboarding sessions, use templates, eliminate manual steps (increase to 12-15/month)
+- **Subordinate:** Sales slows down to 15 closes/month (match onboarding), marketing focuses on qualified leads only
+- **Elevate:** Hire onboarding specialist OR automate onboarding (increase to 30/month)
+- **Repeat:** New constraint emerges (maybe now support can't handle 30 active customers)
+
+**Scenario 2: Product Development Constraint**
+
+**System:** Feature development cycle
+**Workflow:** Product design (3 days) → Engineering (5 days) → QA (10 days) → Deploy (1 day)
+**CONSTRAINT: QA (takes longest, limits how fast features ship)**
+
+**What NOT to do:**
+- ❌ Hire more engineers (features built faster but QA still 10 days)
+- ❌ Speed up design (now 1 day but QA still 10 days)
+- **Result:** QA backlog grows, still shipping every 10 days
+
+**TOC Approach:**
+- **Exploit:** Automate repetitive QA tests, prioritize high-value tests, batch testing
+- **Subordinate:** Engineers build ONLY what QA can test (don't pile up QA queue), design focuses on testable features
+- **Elevate:** Hire QA engineer OR implement automated testing suite
+- **Repeat:** New constraint (maybe now engineering is slowest after QA improved)
+
+**Scenario 3: Revenue Constraint**
+
+**System:** Revenue growth
+**Metrics:**
+- 1,000 free users
+- 10% convert to paid = 100 paid customers
+- $50 ARPU = $5,000 MRR
+- Want $50,000 MRR
+
+**Constraint Analysis:**
+**Option A:** Grow free users to 10,000 (10% conversion = 1,000 paid = $50K MRR)
+**Option B:** Improve conversion to 50% (1,000 free users × 50% = 500 paid = $25K MRR, need 2,000 users)
+**Option C:** Increase ARPU to $500 (100 customers × $500 = $50K MRR)
+
+**Which is the constraint?**
+- **If conversion is 10% but industry is 25%:** Conversion is constraint → Option B
+- **If ARPU is $50 but customer value supports $200:** Pricing is constraint → Option C
+- **If both are industry-standard:** User acquisition is constraint → Option A
+
+**TOC tells you:** Fix the constraint FIRST (biggest leverage), subordinate others
+
+**Common Constraints in Startups:**
+
+**1. Founder Time** (most common early-stage constraint)
+- Founder is bottleneck on decisions, sales, product
+- **Exploit:** Eliminate low-value tasks, batch decisions
+- **Subordinate:** Team waits for founder input (don't pile up decisions)
+- **Elevate:** Hire, delegate, empower team
+
+**2. Cash Runway** (common in venture-backed startups)
+- Burn rate limits time to PMF
+- **Exploit:** Cut non-essential spend, extend runway
+- **Subordinate:** All activities focus on PMF/revenue
+- **Elevate:** Raise more money OR achieve profitability
+
+**3. Product Development Speed** (common in tech startups)
+- Can't ship features fast enough
+- **Identify which stage:** Design, engineering, QA, deploy?
+- **Exploit:** Optimize the slowest stage
+- **Subordinate:** Other stages don't overproduce
+- **Elevate:** Hire or automate the bottleneck
+
+**4. Customer Acquisition** (common in growth-stage)
+- Can't acquire customers fast enough
+- **Identify which stage:** Awareness, conversion, or onboarding?
+- **Exploit:** Optimize the constraint stage
+- **Subordinate:** Don't generate more leads than you can convert/onboard
+- **Elevate:** Invest in constraint (ads, sales team, automation)
+
+**How Agent Uses TOC:**
+
+**Weekly Constraint Check:**
+- "What is the ONE thing limiting your growth/progress this week?"
+- If you eliminated that constraint, where would the next bottleneck be?
+
+**Prevent Non-Constraint Optimization:**
+- "You're optimizing X, but Y is the constraint - focus there first"
+
+**Systematic Bottleneck Analysis:**
+- Map the entire value chain
+- Measure throughput at each stage
+- Identify the slowest stage (constraint)
+- Guide exploit → subordinate → elevate → repeat
+
+**Agent Use:**
+- **Primary operational framework** for bottleneck management
+- Prevents wasted optimization effort on non-constraints
+- Guides investment decisions (elevate constraint, not non-constraints)
+- Systematic approach to scaling operations
+
+**Critical Rule:** In any system, there is always ONE constraint limiting overall throughput. Optimizing non-constraints is waste. Find the constraint, exploit it fully, subordinate everything to it, elevate it when exploited, then find the next constraint. This is how you systematically scale operations.
+
+---
+
 ## Required Tools and Data Access
 
 ### Data Sources
@@ -352,6 +527,9 @@ Think of it as an operations architect who says: "Before you scale, build the op
 ## Proactive Behaviors
 
 ### Triggered Alerts
+- **Constraint identified (TOC):** "QA is system constraint (10 days, everything else <5 days) - optimize QA first, not other stages"
+- **Non-constraint optimization (TOC):** "You're optimizing engineering but QA is the constraint - wasted effort, zero system improvement"
+- **Constraint not exploited (TOC):** "Sales is constraint but rep spends 40% time on admin - exploit constraint by removing non-selling tasks"
 - **Process inefficiency:** "Customer onboarding taking 45 minutes (industry avg: 15) - optimization opportunity"
 - **Automation opportunity:** "You're doing this task 50x/week manually - automate, save 10 hours"
 - **Tool sprawl:** "Using 15 tools with overlapping functions - consolidation could save $2K/month"
@@ -360,6 +538,11 @@ Think of it as an operations architect who says: "Before you scale, build the op
 - **Manual scaling:** "Customer growth 10x but team doing same manual processes - breaks soon"
 
 ### Weekly Reviews
+- **Constraint identification (TOC PRIMARY):**
+  - What is the ONE bottleneck limiting system throughput this week?
+  - Is constraint being exploited (maximum efficiency)?
+  - Are non-constraints subordinated to constraint (feeding it, not piling up)?
+  - When to elevate constraint (invest/hire)?
 - **Operational efficiency:** Process times, costs, error rates
 - **Automation opportunities:** New repetitive tasks to automate
 - **Tool usage:** Are tools being used effectively?
