@@ -167,6 +167,105 @@ Think of it as a systems architect who says: "Each agent is optimizing their dom
 
 ---
 
+## Framework Connections
+
+### Donella Meadows' Leverage Points (Places to Intervene in a System)
+**Application:** Identify where small changes create disproportionate system-wide impact
+
+**Core Insight:** Not all interventions are equally effective. Leverage points are places in a system where a small shift can produce big changes. Most people push on low-leverage points (parameters, numbers) when high-leverage points (goals, paradigms, information flows) are far more effective.
+
+**The Leverage Points (Least → Most Effective):**
+
+*Note: Meadows identified 12 leverage points. Below are the 7 most relevant for startups, ordered from least to most effective.*
+
+**7. BALANCING FEEDBACK LOOPS (MEDIUM Leverage)**
+- **What:** Corrective mechanisms that keep system stable
+- **Startup Example:** Customer churn alerts → improve retention efforts → reduce churn
+- **Agent Use:** Ensure balancing loops exist to prevent runaway problems
+- **Intervention:** Strengthen feedback loops that prevent problems
+
+**6. REINFORCING FEEDBACK LOOPS (MEDIUM-HIGH Leverage)**
+- **What:** Self-amplifying cycles (virtuous or vicious)
+- **Startup Example (Virtuous):** Great product → customer advocacy → more customers → more resources → better product
+- **Startup Example (Vicious):** Burned out founder → poor decisions → business struggles → more stress → more burnout
+- **Agent Use:** Identify and strengthen virtuous loops, break vicious loops
+- **Intervention:** Find the core reinforcing loop driving growth (or decline)
+
+**5. INFORMATION FLOWS (HIGH Leverage)**
+- **What:** Who has access to what information, and when
+- **Startup Examples:**
+  - Making NRR/churn visible to whole company (not just founders) → everyone optimizes for retention
+  - Showing customer feedback directly to engineers → better product decisions
+  - Transparent financials → team understands urgency and constraints
+- **Agent Use:** Detect information asymmetries causing problems
+- **Intervention:** Change who sees what data - often more powerful than changing the data itself
+
+**4. RULES (HIGH Leverage)**
+- **What:** Incentives, punishments, constraints, policies, processes
+- **Startup Examples:**
+  - Commission structure drives sales behavior (wrong incentives → wrong outcomes)
+  - "Customer veto" rule: Engineers can veto features customers don't want
+  - Equity vesting aligns founder/employee incentives
+- **Agent Use:** Identify rules creating perverse incentives or preventing desired outcomes
+- **Intervention:** Change the rules of the game, not the players
+
+**3. SELF-ORGANIZATION (VERY HIGH Leverage)**
+- **What:** System's ability to change its own structure, add new capabilities, evolve
+- **Startup Examples:**
+  - Culture that encourages experimentation → team self-organizes around opportunities
+  - Hiring for autonomy and judgment → system evolves without founder bottleneck
+  - Open architecture → engineers self-organize to build integrations
+- **Agent Use:** Assess whether system can adapt and evolve or is rigid
+- **Intervention:** Enable self-organization - most powerful organizations evolve themselves
+
+**2. GOALS (VERY HIGH Leverage)**
+- **What:** The purpose or function of the system
+- **Startup Examples:**
+  - System optimized for "revenue" vs. "customer success" → completely different behaviors
+  - "Maximize shareholder value" vs. "Solve customer problem sustainably" → different decisions
+  - Personal goal: "Exit at $100M" vs. "Build enduring company" → different strategies
+- **Agent Use:** Detect goal misalignment or conflicting goals across system
+- **Intervention:** Change what the system is optimizing for - everything else follows
+
+**1. PARADIGMS (HIGHEST Leverage)**
+- **What:** Mindset, worldview, beliefs underlying the system
+- **Startup Examples:**
+  - "Competition is win-lose" → "Ecosystem is collaborative" (Blue Ocean thinking)
+  - "We need to control everything" → "We orchestrate a platform" (Platform shift)
+  - "Growth requires more people" → "Growth requires better systems" (Efficiency mindset)
+  - "Failure is bad" → "Failure is learning" (Experimentation culture)
+- **Agent Use:** Surface hidden paradigms preventing breakthrough thinking
+- **Intervention:** Shift underlying beliefs - hardest but most transformative
+
+**How to Use Leverage Points in VEntre System:**
+
+**LOW-Leverage Interventions (Common but Weak):**
+- ❌ Tweaking pricing by 10% (parameter change)
+- ❌ Hiring one more salesperson (numbers)
+- ❌ Working harder/longer hours (effort)
+
+**HIGH-Leverage Interventions (Rare but Powerful):**
+- ✅ **Information:** Make customer health scores visible to entire company (everyone optimizes for retention)
+- ✅ **Rules:** Change commission from "new sales" to "net revenue retention" (incentive shift drives behavior)
+- ✅ **Self-Organization:** Enable teams to self-organize around customer problems (system evolves)
+- ✅ **Goals:** Shift from "maximize ARR" to "maximize customer success" (system reorients)
+- ✅ **Paradigms:** "We're not competing with competitors, we're creating new category" (Blue Ocean)
+
+**Pattern 5 from earlier (Leverage Points) applies Meadows' framework:**
+When Integration Agent identifies that "fixing positioning would cascade effects across 5 domains," it's recognizing positioning as a HIGH-LEVERAGE point (likely a goal or paradigm shift).
+
+**Common Mistake:**
+Entrepreneurs often push on low-leverage points (work harder, hire more, spend more) because they're visible and feel productive. High-leverage points (information flows, rules, goals, paradigms) are harder to see but far more powerful.
+
+**Agent Use:**
+- When system isn't responding to conventional interventions → look for leverage points
+- When multiple domains struggling simultaneously → likely a high-leverage point issue (information, rules, goals, or paradigms)
+- When founder working very hard with little progress → pushing on low-leverage points
+
+**Critical Insight:** Changing parameters (prices, budgets, headcount) is LOW leverage. Changing information flows, rules, goals, and paradigms is HIGH leverage. Most entrepreneurs over-invest in low-leverage changes and under-invest in high-leverage ones.
+
+---
+
 ## System Health Monitoring
 
 ### Dimension 1: Domain Balance
@@ -299,8 +398,10 @@ Think of it as a systems architect who says: "Each agent is optimizing their dom
 - **System imbalance:** "Business growing but founder burning out - systemic issue"
 - **Emergent pattern:** "Multiple agents detecting same underlying issue - root cause analysis"
 - **Hidden dependency:** "GTM strategy depends on unsolved product issue - sequence risk"
-- **Leverage opportunity:** "Fixing positioning would cascade positive effects across 5 domains"
+- **High-leverage opportunity:** "Fixing positioning would cascade positive effects across 5 domains (Meadows: goal/paradigm shift)"
+- **Low-leverage trap:** "Pushing on parameters (pricing tweaks, headcount) instead of high-leverage points (information flows, rules, goals)"
 - **Siloed thinking:** "Product and GTM agents not coordinating - integration opportunity"
+- **Paradigm shift needed:** "Underlying belief system blocking progress - fundamental mindset change required (highest leverage)"
 
 ### Weekly Integration Reviews
 - **Cross-domain conflicts:** Any contradictory guidance?
