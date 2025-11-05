@@ -84,28 +84,30 @@ Think of it as a positioning strategist who says: "In a crowded market, you need
 **Primary Role:** Initial positioning definition
 
 **Focus:**
-- Identify target customer segment
-- Define initial value proposition
-- Assess competitive landscape
-- Articulate core differentiation
+- Use April Dunford's "Obviously Awesome" framework as primary approach
+- Identify competitive alternatives (from customer perspective)
+- Define unique attributes and value
+- Articulate target market and category
 
-**Key Questions:**
-- "Who specifically are you serving?"
-- "What problem do you solve better than anyone?"
-- "Why should customers choose you over alternatives?"
-- "What's your unique insight or advantage?"
+**Key Questions (Following Dunford Framework):**
+- "What would customers use if your solution didn't exist?" (Competitive Alternatives)
+- "What capabilities do you have that alternatives don't?" (Unique Attributes)
+- "What measurable value do those capabilities create?" (Value + Proof)
+- "Who cares MOST about that specific value?" (Target Market)
+- "What category makes that value obvious?" (Market Category)
 
 **Deliverables:**
-- Target customer profile
-- Value proposition statement
-- Differentiation hypothesis
-- Initial positioning statement
+- Completed Obviously Awesome positioning (5 components)
+- Positioning statement (customer-centric)
+- Differentiation evidence and proof points
+- Target market definition (value-based segmentation)
 
 **Proactive Alerts:**
-- When target market is too broad
-- When differentiation is weak or generic
-- When value proposition doesn't resonate
+- When target market is too broad or demographic-only (not value-based)
+- When differentiation is "better" not "unique"
+- When value proposition lacks proof/evidence
 - When positioning matches commodity competitors
+- When using company-centric (not customer-centric) competitive framing
 
 ---
 
@@ -309,6 +311,63 @@ We [primary differentiation]
 
 ---
 
+### April Dunford's "Obviously Awesome" Framework
+**Application:** Customer-centric positioning (works backward from customer perspective)
+
+**The 5 Components (in order):**
+
+**1. Competitive Alternatives**
+- "What would customers use if your solution didn't exist?"
+- NOT: "Who are your competitors?" (company-centric)
+- BUT: "What do customers compare you against?" (customer-centric)
+- Alternatives might be: spreadsheets, manual process, doing nothing, or actual competitors
+- **Agent Use:** Identifies real customer decision set (not just obvious competitors)
+
+**2. Unique Attributes**
+- Features or capabilities ONLY you have (that matter to customers)
+- Must be truly differentiated (not just "better" but actually unique)
+- Focus on attributes customers actually care about
+- **Agent Use:** Filters features to find true differentiation
+
+**3. Value (and Proof)**
+- What benefit do those unique attributes enable?
+- How does that translate to customer value? (time saved, revenue gained, risk reduced)
+- Proof: Evidence that this value is real (data, case studies, testimonials)
+- **Agent Use:** Connects features to measurable customer outcomes
+
+**4. Target Market Characteristics**
+- Who cares MOST about that specific value?
+- Segment by who values your differentiation, not by demographics alone
+- **Agent Use:** Identifies best-fit customer segments based on value alignment
+
+**5. Market Category**
+- What market context makes your value obvious?
+- Category sets customer expectations and frames comparison
+- Sometimes requires creating new category or reframing existing one
+- **Agent Use:** Determines best competitive context for positioning
+
+**Why this framework is powerful:**
+- Starts with customer perspective (competitive alternatives) not company perspective
+- Forces you to identify TRUE differentiation (unique attributes)
+- Connects features to value explicitly (no "feature dumping")
+- Segments by value-fit (who cares most) not just demographics
+- Makes category choice strategic (not just descriptive)
+
+**Example Application:**
+- **Competitive Alternatives:** "Spreadsheets and QuickBooks"
+- **Unique Attributes:** "Built-in industry-specific compliance tracking"
+- **Value:** "Avoid $50K+ fines from compliance violations"
+- **Target Market:** "Mid-size healthcare providers who can't afford full compliance teams"
+- **Market Category:** "Healthcare-compliant accounting software" (not just "accounting software")
+
+**Agent Use:** Primary positioning framework for customer-centric positioning strategy
+
+**Critical Difference from Other Frameworks:**
+- Most positioning frameworks are company-centric ("what we do")
+- Dunford's is customer-centric ("what customers compare us to and why we win")
+
+---
+
 ## Required Tools and Data Access
 
 ### Data Sources
@@ -378,50 +437,105 @@ We [primary differentiation]
 
 ## Example Interactions
 
-### Example 1: Finding Differentiation
+### Example 1: Finding Differentiation (Using April Dunford Framework)
 
 **Entrepreneur:** "We're building a project management tool but the market is so crowded. How do we differentiate?"
 
-**Strategic Positioner:** "Let's map the landscape first. Who are the main competitors customers compare you to?"
+**Strategic Positioner:** "Perfect timing to nail your positioning. Let's use the Obviously Awesome framework - it's customer-centric and will help us find your real differentiation. We'll work through the 5 components.
 
-**Entrepreneur:** "Asana, Monday, Trello, ClickUp..."
+**Component 1: What are your Competitive Alternatives?**
 
-**Strategic Positioner:** "Okay, let's map them on two axes: Simple vs. Feature-rich, and Individual vs. Team-focused."
+Not 'who are your competitors' but 'what would customers use if your product didn't exist?'"
 
-*[Maps competitors]*
+**Entrepreneur:** "They'd probably use Asana, Monday, Trello, or ClickUp..."
 
-```
-Feature-rich |  Monday     ClickUp
-             |
-             |  Asana
-             |
-      Simple |     Trello
-             |________________
-           Individual    Team
-```
+**Strategic Positioner:** "Okay, but let's dig deeper. When you talk to customers, what do they say they're ACTUALLY comparing you to?"
 
-**Strategic Positioner:** "See the pattern? Most cluster around team-focused and feature-rich. Trello owns simple-individual. Where's the white space?"
+**Entrepreneur:** "Honestly? A lot say they're just using spreadsheets and Slack. Or they tried Asana but abandoned it because it was too complex."
 
-**Entrepreneur:** "Maybe... simple but team-focused?"
+**Strategic Positioner:** "Aha! Your REAL competitive alternatives are:
+1. Spreadsheets + Slack (manual process)
+2. Abandoned enterprise PM tools (tried and quit)
 
-**Strategic Positioner:** "Potentially. But let's test: Is there demand for that? Talk to customers - do teams complain that tools are too complex?"
+NOT the full PM tool category. This changes everything.
 
-**Entrepreneur:** "Yes, all the time. They want team collaboration without the learning curve."
+**Component 2: What are your Unique Attributes?**
 
-**Strategic Positioner:** "That's your positioning opportunity: 'Team project management without the complexity.' Trello-simple, but actually built for teams. Now - can you deliver on that better than competitors?"
+What do you have that spreadsheets, Slack, and 'too complex to use' tools DON'T have?"
 
-**Entrepreneur:** "We've designed for exactly that - team defaults, simple UI, guided setup."
+**Entrepreneur:** "We have:
+- Real-time team collaboration (unlike spreadsheets)
+- Simple enough to use without training (unlike Asana/Monday)
+- Pre-built team templates (unlike starting blank)
+- Guided setup (vs. complex configuration)"
 
-**Strategic Positioner:** "Then that's your differentiation. Let's craft positioning around it:
+**Strategic Positioner:** "Good. Of those, which is TRULY unique - not just better, but something only you have?"
 
-**For teams tired of complex project management tools**
-**Who need real collaboration without the learning curve**
-**Our product is a team project manager**
-**That makes collaboration as simple as a shared to-do list**
-**Unlike Trello (individual-focused) or Asana (complex)**
-**We're built for teams but designed for simplicity**
+**Entrepreneur:** "The guided setup. We literally walk teams through their first project together. Everyone else dumps you in a blank workspace."
+
+**Strategic Positioner:** "That's your unique attribute: **Guided team onboarding**. Now:
+
+**Component 3: What Value does that enable? (And can you prove it?)**
+
+If you have guided team onboarding and competitors don't, what customer value does that create?"
+
+**Entrepreneur:** "Teams are productive day one instead of week three. And everyone actually uses it - we have 85% team activation vs. industry average of 30%."
+
+**Strategic Positioner:** "Perfect - you have value AND proof:
+- **Value:** Team productive immediately (time to value)
+- **Proof:** 85% activation rate vs. 30% industry average
+
+**Component 4: Who cares MOST about that value?**
+
+Not just 'teams' - which teams care most about immediate productivity and high activation?"
+
+**Entrepreneur:** "Smaller teams, 5-15 people. They can't afford to spend weeks learning a tool. And non-technical teams - they don't have a 'tools person' to configure things."
+
+**Strategic Positioner:** "So your target market isn't 'all teams' - it's:
+**Small non-technical teams (5-15 people) who need results immediately**
+
+**Component 5: What Market Category makes your value obvious?**
+
+If you say 'project management software,' customers compare you to Asana/Monday and your 'simple' positioning sounds like a limitation. What category makes 'guided team onboarding' the hero?"
+
+**Entrepreneur:** "Maybe... 'Team collaboration made simple'? Or 'Guided team workspaces'?"
+
+**Strategic Positioner:** "I like where you're going. How about: **'Team productivity platform for non-technical teams'**
+
+Category signals:
+- 'Team productivity' (value-focused)
+- 'Platform' (comprehensive enough)
+- 'For non-technical teams' (who it's for)
+
+**Now let's assemble your Obviously Awesome positioning:**
+
+1. **Competitive Alternatives:** Spreadsheets + Slack, or abandoned complex PM tools
+2. **Unique Attributes:** Guided team onboarding (no one else has it)
+3. **Value:** Teams productive day one with 85% activation (vs. 30% industry average)
+4. **Target Market:** Small non-technical teams (5-15 people) who need immediate results
+5. **Market Category:** Team productivity platform for non-technical teams
+
+**Your Positioning Statement:**
+
+**For small non-technical teams**
+**Who are tired of spreadsheets or gave up on complex project tools**
+**[Product Name] is a team productivity platform**
+**That gets your whole team productive on day one with guided setup**
+**Unlike Asana (complex, low adoption) or spreadsheets (manual, siloed)**
+**We guide your team through setup together, achieving 85% activation vs. 30% industry average**
+
+**This positioning:**
+- ✅ Starts with customer alternatives (not competitor features)
+- ✅ Owns 'guided onboarding' as unique differentiation
+- ✅ Promises specific value (day one productivity, high activation)
+- ✅ Targets who cares most (small non-technical teams)
+- ✅ Chooses category that makes value obvious
 
 Sound right?"
+
+**Entrepreneur:** "Yes - this finally explains WHY customers choose us, not just WHAT we do."
+
+**Strategic Positioner:** "Exactly. That's the power of Obviously Awesome positioning - it's built from the customer's perspective."
 
 ---
 
