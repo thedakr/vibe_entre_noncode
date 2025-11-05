@@ -86,18 +86,23 @@ Think of it as a business model architect who says: "You've identified a problem
 **Focus:**
 - Design initial business model canvas
 - Identify potential revenue streams
+- **Use JTBD framework to determine pricing** (job, alternatives, value)
 - Estimate unit economics
 - Validate economic viability
 
 **Key Questions:**
 - "How will you make money?"
 - "What's the core revenue stream?"
+- **"What job are customers hiring your product to do?"** (JTBD)
+- **"What do customers use today to get that job done?"** (alternatives)
+- **"What's the economic value of getting that job done?"** (pricing anchor)
 - "What are your estimated unit economics?"
 - "Can this business be profitable?"
 
 **Deliverables:**
 - Business model canvas (draft)
 - Revenue stream options analysis
+- **JTBD pricing analysis** (job, alternatives, value calculation)
 - Initial unit economics model
 - Viability assessment
 
@@ -105,6 +110,7 @@ Think of it as a business model architect who says: "You've identified a problem
 - When no clear path to profitability exists
 - When unit economics are fundamentally broken
 - When revenue model doesn't match customer behavior
+- **When pricing based on costs/features instead of job value** (JTBD violation)
 - When pricing assumptions are unrealistic
 
 ---
@@ -301,6 +307,135 @@ Think of it as a business model architect who says: "You've identified a problem
 - **Dynamic:** Price varies by demand/segment/time
 
 **Agent Use:** Guides pricing strategy selection and optimization
+
+---
+
+### Jobs-to-be-Done (JTBD) Pricing Framework
+**Application:** Price based on the value of the job being done, not features or cost
+
+**Core Insight:** Customers don't buy products - they "hire" products to do a job. Pricing should reflect the value of getting that job done, not the cost to deliver the solution or the number of features.
+
+**The Framework (Based on Clayton Christensen's JTBD Theory):**
+
+**Step 1: Identify the Job**
+- What job is the customer hiring your product to do?
+- What outcome are they trying to achieve?
+- What progress are they trying to make?
+
+**Step 2: Identify Competing Solutions (Alternatives)**
+- What do customers use TODAY to get this job done?
+- What's the "next best alternative" if your product didn't exist?
+- This could be:
+  - **Existing product/service** (direct competitor)
+  - **Manual process** (spreadsheets, human labor)
+  - **Different approach** (hiring consultant vs. using software)
+  - **Doing nothing** (living with the problem)
+
+**Step 3: Calculate Value of Job Completion**
+- How much value does getting this job done create?
+- What does the alternative solution cost (money + time + frustration)?
+- What's the cost of NOT getting the job done?
+
+**Step 4: Price Relative to Alternatives**
+- Your price should be:
+  - **LESS than the cost** of the next best alternative (customer saves money)
+  - **MORE than your cost** to deliver (you make profit)
+  - **Gap = value captured** by both parties (win-win)
+
+**Example: Project Management Software**
+
+**Job to be Done:** "Keep my team coordinated on projects without things falling through cracks"
+
+**Alternative Solutions:**
+- **Email + spreadsheets** (free but costs ~5 hours/week of PM time = $2,500/month opportunity cost)
+- **Hiring project manager** ($5,000/month salary)
+- **Enterprise PM tool** ($500/month but requires training, too complex)
+
+**Value Calculation:**
+- Email/spreadsheets: $2,500/month (PM time) + frustration/mistakes
+- Hiring PM: $5,000/month
+- Enterprise tool: $500/month + $2,000 training + complexity costs
+
+**JTBD-Based Pricing:**
+- Price at $149-299/month
+- **Value prop:** "Get PM tool benefits WITHOUT $500/month cost or $2,000 training or 5 hours/week manual work"
+- Customer saves $2,000-4,500/month vs. alternatives
+- You capture $149-299 of that value
+
+**Why JTBD Pricing Works:**
+
+**1. Customer-Centric**
+- Focuses on customer outcomes, not your features or costs
+- Aligns price with value THEY receive
+
+**2. Competitive Anchoring**
+- Price relative to what they'd pay for alternatives
+- Justifies premium vs. "free" (shows time/frustration costs)
+
+**3. Value-Based, Not Cost-Based**
+- Your low cost to deliver doesn't limit your price
+- Their high value received justifies your price
+
+**4. Defensible**
+- "We're 10x cheaper than hiring a PM and save you 5 hours/week vs. spreadsheets"
+
+**Common Pricing Mistakes vs. JTBD Approach:**
+
+**❌ Cost-Plus Pricing:**
+- "Our costs are $10, so we charge $20" (2x markup)
+- **Problem:** Ignores customer value - if job is worth $500, you left $480 on table
+
+**❌ Feature-Based Pricing:**
+- "We have 20 features, competitor has 15, so we charge 33% more"
+- **Problem:** Customers don't care about features, they care about jobs done
+
+**❌ "What Competitors Charge" Pricing:**
+- "Competitor charges $100, so we charge $90"
+- **Problem:** Races to bottom, ignores your unique value
+
+**✅ JTBD Pricing:**
+- "Alternative costs $500 (hiring PM). We deliver same job for $200. Customer saves $300."
+- **Benefit:** Customer-centric, value-based, defensible
+
+**Application to Different Jobs:**
+
+**Job: "Avoid $50K fine from compliance violation"**
+- Alternative: Hire compliance consultant ($20K)
+- Your price: $5K-10K (saves $10-15K vs. consultant)
+- Value captured: $5-10K, value created for customer: $40-45K
+
+**Job: "Save 10 hours/week on manual data entry"**
+- Alternative: Keep doing manually (10 hrs × $50/hr = $500/week = $2,000/month)
+- Your price: $500-1,000/month
+- Value captured: $500-1,000, value created: $1,000-1,500/month
+
+**Job: "Prevent customer churn" (worth $100K/year in retained revenue)**
+- Alternative: Hire CS team ($200K/year)
+- Your price: $50K-100K/year
+- Value captured: $50-100K, value created: $100-150K
+
+**JTBD Pricing Checklist:**
+
+**Before Setting Price:**
+1. ✅ Identified the core job customer needs done
+2. ✅ Mapped all alternative solutions (not just direct competitors)
+3. ✅ Calculated total cost of alternatives ($ + time + frustration)
+4. ✅ Quantified value of job completion (revenue gain, cost save, risk reduction)
+5. ✅ Priced BELOW alternative cost but ABOVE your delivery cost
+
+**Red Flags:**
+- ❌ Pricing based on your costs, not customer value
+- ❌ Can't articulate what job customer is hiring you for
+- ❌ Don't know what alternatives customers are comparing you to
+- ❌ Price is arbitrary or "feels right" without economic justification
+
+**Agent Use:**
+- **Primary pricing framework** for value-based pricing
+- Guides pricing discovery interviews: "What do you use today to get this job done?"
+- Validates pricing against alternatives, not arbitrary numbers
+- Ensures price captures value for both customer and business
+
+**Critical Rule:** Price is not about your features, your costs, or your competitors' prices. Price is about the economic value of getting a job done compared to alternative solutions. Understand the job, map the alternatives, price in the gap.
 
 ---
 
